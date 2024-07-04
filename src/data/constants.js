@@ -277,119 +277,112 @@ export const education = [
     school: "Institute of Engineering and Rural Technology (IERT), Prayagraj",
     date: "Aug 2019 - Jun 2023",
     grade: "7.81 CGPA",
-    desc: "I am completed a Bachelor's degree in Computer Science and Engineering at Institute of Engineering and Rural Technology (IERT), Prayagraj. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at IERT,Where I learned and worked on exciting projects with a team of talented developers.",
+    desc: "I completed a Bachelor's degree in Computer Science and Engineering at the Institute of Engineering and Rural Technology (IERT), Prayagraj. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developer Student Club (GDSC) at IERT, where I learned and worked on exciting projects with a team of talented developers.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   }
 ];
 
 export const projects = [
   {
-    id: 4,
+    id: 0,
     title: "Podstream",
     description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+      "I am currently developing a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand, and create their own podcasts. I am implementing user authentication using Google Auth and JWT Auth, and building a responsive user interface with React JS to provide a seamless experience across all devices. Additionally, I am practicing agile methodologies to optimize team efficiency and communication throughout the development process.",
     image:
      podstram,
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "styled-components"],
     category: "web app",
     github: "https://github.com/harshityadaav/podstream",
     webapp: "https://podstream.netlify.app/",
   },
 
   {
-    id: 2,
+    id: 1,
     title: "Gitflow",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "I designed and developed Gitfolow, a web application built with the MERN stack and TailwindCSS, leveraging the GitHub API. The project features GitHub authentication via Passport.js, allows users to fetch and filter GitHub user profiles and repositories, and includes robust error handling on both the client and server sides.",
     image:
       gitflow,
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
+    tags: ["React Js",  "Node Js" , "Express Js","Mongodb", "Tailwind CSS"],
+    category: "web app",
     github: "https://github.com/harshityadaav/gitflow",
     webapp: "",
   },
   {
-    id: 11,
+    id: 2,
     title: "Nexowa",
     description:
       "I designed and developed the Nexowa website from the ground up using Next.js, Node.js, Express, MongoDB, and TypeScript. This project showcases my expertise in building scalable and efficient web applications, leveraging modern technologies to deliver a seamless user experience.",
     image:
       nexowa,
     tags: [
-      "React Js",
-      "PostgressSQL",
+      "Next Js",
       "Node Js",
       "Express Js",
-      "Redux",
-      "React Flow",
+      "Mongodb",
+      "TypeScript",
     ],
     category: "web app",
     github: "",
     webapp: "https://nexowa.com",
   },
   {
-    id: 1,
+    id: 3,
     title: "Viewix",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Viewix is a web application built with React and Redux, allowing users to search for movies and TV shows, view popular, trending, and upcoming releases, and explore detailed information about each title. The platform features personalized recommendations and fine-tuned filters to enhance the user experience.",
     image:
      viewix,
     tags: [
       "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "Redux toolkit",
+      "SCSS",
+      "Axios",
+      "React Router",
     ],
     category: "web app",
     github: "https://github.com/harshityadaav/viewix",
     webapp: "https://viewix.vercel.app/",
   },
   {
-    id: 9,
+    id: 4,
     title: "Urza",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "I developed the URZA website focusing on frontend development using React JS, React Router, EmailJS, Maps API, Slick-slider, and React-awesome. The site features email handling with EmailJS, map integration with Maps API, a dynamic slider using Slick-slider, and engaging animations with React-awesome.",
     image:
       urza,
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
       "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
+      "React Router",
+      "Email js",
+      "Maps API",
+      "Slick-slider",
+      "React-awesome",
     ],
     category: "web app",
     github: "https://github.com/harshityadaav/URZA-Solar-Panel",
     webapp: "https://urza-solar-panel.vercel.app/",
   },
   {
-    id: 0,
+    id: 5,
     title: "Prabhu Seva Tour & Travel",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "I created the Prabhu Seva Tour & Travel website, a fully responsive frontend using React. The project includes seamless navigation with React Router and dynamic content presentation with Slick-slider.",
     image:
      travel,
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+    tags: ["React Js", "React Router",  "CSS", "Responsiveness", "Slick-slider"],
     category: "web app",
     github: "https://github.com/harshityadaav/Travelling-Agency",
     webapp: "https://travelling-agency-drab.vercel.app/",
   },
   {
-    id: 3,
+    id: 6,
     title: "Ecommerce Store",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+      "I created an e-commerce store website using React, with navigation handled by React Router and authentication managed through Firebase. The site includes full functionality such as adding items to the cart and a buy now feature.",
     image:
       ecommerce,
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+    tags: ["React Js", "React Router", "Auth", "Firebase"],
     category: "android app",
     github: "https://github.com/harshityadaav/E-Commerece-React-Website",
     webapp: "https://e-commerece-react-website.vercel.app/",
