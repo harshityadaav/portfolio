@@ -214,7 +214,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStim1LH2wQVOyXvxC9pmZs3QMYmibzGo9YWguQI5eSFF-F4H6sDJHvQYMk3Q&s",
+    img: "https://media.licdn.com/dms/image/D4D0BAQGiRX1N7FxM5g/company-logo_200_200/0/1720518043552/nexowa_logo?e=1729123200&v=beta&t=otXAkrgRFGYQu7ao5FHR6BrnPyT5ggKhzGv-6YAe5NE",
     role: "Software Developer",
     company: "Nexowa",
     date: "Jun 2024 - Present",
